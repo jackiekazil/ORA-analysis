@@ -1,4 +1,7 @@
 This purpose of these files is turn ORA outputs into graphs.
 This was a throw away script that I am generizing a little for others to use.
 
+sample script run:
+$ python graph_ora_output.py sample_data sample_output
+
 More info will be added soon.
