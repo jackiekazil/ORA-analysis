@@ -1,0 +1,134 @@
+Network Agent x Agent 
+
+   Input data: Agent x Agent 
+   Start time: Tue Apr 12 20:48:20 2011
+ 
+   Return to table of contents 
+
+   These measures take as input only the network Agent x Agent and output a single 
+   value (network-level measures) or a collection of values (node-level). 
+
+   Network-Level Measure                    Value      
+   ---------------------------------------- ---------- 
+   Average Distance                         9.446      
+   Breadth, Column                          1.000      
+   Breadth, Row                             1.000      
+   Clustering Coefficient, Watts-Strogatz   0.953      
+   Communicative Need                       1.000      
+   Component Count, Strong                  1.000      
+   Component Count, Weak                    1.000      
+   Connectedness                            1.000      
+   Count, Column                            225.000    
+   Count, Node                              225.000    
+   Count, Row                               225.000    
+   Density                                  0.883      
+   Diameter                                 30.000     
+   Diffusion                                0.999      
+   Efficiency                               0.118      
+   Efficiency, Global                       0.128      
+   Efficiency, Local                        0.092      
+   Fragmentation                            0.000      
+   Hierarchy                                0.000      
+   Interdependence                          0.000      
+   Isolate Count                            0.000      
+   Link Count                               44494.000  
+   Link Count, Lateral                      0.987      
+   Link Count, Pooled                       1.000      
+   Link Count, Reciprocal                   1.000      
+   Link Count, Sequential                   0.000      
+   Link Count, Skip                         1.000      
+   Network Centralization, Betweenness      0.185      
+   Network Centralization, Closeness        0.082      
+   Network Centralization, Column Degree    0.438      
+   Network Centralization, In Degree        0.440      
+   Network Centralization, Out Degree       0.440      
+   Network Centralization, Row Degree       0.438      
+   Network Centralization, Total Degree     0.442      
+   Network Levels                           30.000     
+   Redundancy, Column                       54.985     
+   Redundancy, Row                          54.985     
+   Shared Situation Awareness               0.004      
+   Span Of Control                          12262.720  
+   Speed, Average                           0.106      
+   Speed, Minimum                           0.033      
+   Transitivity                             0.948      
+   Upper Boundedness                        1.000      
+
+   Node-Level Measure                       Avg        Stddev     Min/Max    Min/Max Nodes                                                
+   ---------------------------------------- ---------- ---------- ---------- ------------------------------------------------------------ 
+   Boundary Spanner                         0.000      0.000      0.000      all nodes have equal value 
+                                                                  0.000      
+   Boundary Spanner, Potential              0.004      0.022      0.000      81 nodes (36%) have this value 
+                                                                  0.195      Y000033 
+   Capability                               0.937      0.186      0.007      G000280 
+                                                                  0.993      C000071 
+   Centrality, Authority                    0.582      0.231      0.001      G000280 
+                                                                  1.000      H000413 
+   Centrality, Betweenness                  0.013      0.025      0.000      81 nodes (36%) have this value 
+                                                                  0.197      C000100 
+   Centrality, Bonacich Power               12262.720  5022.540   9.000      G000280 
+                                                                  21831.000  H000413 
+   Centrality, Closeness                    0.110      0.020      0.050      K000016 
+                                                                  0.151      B000229 
+   Centrality, Column Degree                0.562      0.230      0.000      G000280 
+                                                                  1.000      H000413 
+   Centrality, Eigenvector                  0.582      0.231      0.001      G000280 
+                                                                  1.000      H000413 
+   Centrality, Hub                          0.582      0.231      0.001      G000280 
+                                                                  1.000      H000413 
+   Centrality, In Degree                    0.562      0.230      0.000      G000280 
+                                                                  1.000      H000413 
+   Centrality, Information                  0.004      0.001      0.000      G000280 
+                                                                  0.005      H000413 
+   Centrality, Inverse Closeness            0.128      0.030      0.050      K000016 
+                                                                  0.202      B000229 
+   Centrality, Out Degree                   0.562      0.230      0.000      G000280 
+                                                                  1.000      H000413 
+   Centrality, Row Degree                   0.562      0.230      0.000      G000280 
+                                                                  1.000      H000413 
+   Centrality, Total Degree                 0.562      0.230      0.000      G000280 
+                                                                  1.000      H000413 
+   Clique Count                             197.951    97.468     1.000      13 nodes (5%) have this value 
+                                                                  280.000    C000071 
+   Clustering Coefficient, Watts-Strogatz   0.953      0.027      0.897      C000071 
+                                                                  1.000      13 nodes (5%) have this value 
+   Cognitive Demand                         0.879      0.172      0.009      G000280 
+                                                                  0.987      C000071 
+   Cognitive Distinctiveness                0.155      0.133      0.099      G000536 
+                                                                  0.874      G000280 
+   Cognitive Expertise                      0.420      0.191      0.213      5 nodes (2%) have this value 
+                                                                  0.889      M000941 
+   Cognitive Resemblance                    0.845      0.133      0.126      G000280 
+                                                                  0.901      G000536 
+   Cognitive Similarity                     0.834      0.151      0.010      G000280 
+                                                                  0.896      C000994 
+   Component Members, Weak                  1.000      0.000      1.000      all nodes have equal value 
+                                                                  1.000      
+   Constraint, Burt                         0.025      0.035      0.020      P000049 
+                                                                  0.513      G000280 
+   Correlation, Distinctiveness             0.155      0.133      0.099      G000536 
+                                                                  0.874      G000280 
+   Correlation, Expertise                   0.420      0.191      0.213      5 nodes (2%) have this value 
+                                                                  0.889      M000941 
+   Correlation, Resemblance                 0.845      0.133      0.126      G000280 
+                                                                  0.901      G000536 
+   Correlation, Similarity                  0.834      0.151      0.010      G000280 
+                                                                  0.896      C000994 
+   Effective Network Size, Burt             12148.274  5010.356   8.104      G000280 
+                                                                  21712.930  H000413 
+   Exclusivity                              0.000      0.000      0.000      97 nodes (43%) have this value 
+                                                                  0.002      E000172, G000289 
+   Exclusivity, Complete                    0.000      0.000      0.000      all nodes have equal value 
+                                                                  0.000      
+   Interlockers                             0.000      0.000      0.000      all nodes have equal value 
+                                                                  0.000      
+   Node Levels                              20.844     2.207      17.000     4 nodes (1%) have this value 
+                                                                  30.000     K000016, H000413 
+   Radials                                  0.111      0.314      0.000      200 nodes (88%) have this value 
+                                                                  1.000      25 nodes (11%) have this value 
+   Shared Situation Awareness               0.004      0.003      0.000      G000280 
+                                                                  0.011      H000413 
+   Simmelian Ties                           0.883      0.172      0.009      G000280 
+                                                                  0.991      C000071 
+   Triad Count                              38283.920  9637.270   2.000      G000280 
+                                                                  44012.000  C000071 
