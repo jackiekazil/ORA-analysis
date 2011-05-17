@@ -1,16 +1,14 @@
+#!/usr/bin/env python
+
+#TODO: Finish conversion. Pull shared functions out to utils.
+
 import fileinput, glob, os, re, sys
 import matplotlib.pyplot as plt
 import pylab
 
 # sys.argv[1] == location of data
 # sys.argv[2] == desired location of output
-# sys.argv[3]
-
-def save_dir(save_dir_path):
-    try:
-        os.mkdir(sys.argv[2])
-    except OSError:
-        pass
+# sys.argv[3] ==
 
 def find_points(data):
     point_list = []
@@ -97,6 +95,8 @@ if __name__ == '__main__':
     save_dir(sys.argv[2])
     path = sys.argv[1]
 
+    print os.listdir(path)
+
     #Get start & stop points
     for infile in glob.glob( os.path.join(path, '*') ):
         line_before_start = last_line = 0
@@ -116,7 +116,6 @@ if __name__ == '__main__':
 
     data_points = {}
     for infile in glob.glob( os.path.join(path, '*') ):
-        counter = 0
 
         # TODO: Make generic
         # Get more info on ORA saving methods.
@@ -124,14 +123,15 @@ if __name__ == '__main__':
         version_match = re.search("\d{2,3}", infile)
         version = version_match.group()
 
-        #regex the match.
+        #TODO: regex
         if 'group1' in infile:
             group = 'group1'
         elif 'group2' in infile:
             group = 'group2'
         else:
-            print "There is a problem with parsing dem & rep out of the file name."
+            print "There is a problem with parsing group names from your file names. Please review your naming conventions and file organization."
 
+        counter = 0 #Line count
         for line in fileinput.input(infile):
             counter+=1
 

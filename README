@@ -1,5 +1,27 @@
+#MORE TO COME - These scripts are not working as generics yet. 
+Come back later.
+
+-----------------------
+
 This purpose of these files is turn ORA outputs into graphs.
-This was a throw away script that I am generizing a little for others to use.
+This was a throw away script that I am generalizing a little for others to use.
+
+These instructions are intended to be written for someone with little python experience.
+
+
+To use the scripts, you need to generate outputs from ORA that the script works with. They should look like the text files that are in one of the sub -folders in the sample_data folder. 
+
+1. Create a folder to save you data. In that folder, create a folder for each group that you have data for. So, if you have three groups, you might have something that looks like that following. 
+
+
+Generating output from ORA:
+In the main panel you choose your data set and click "Generate Reports..." In there you choose "All Measures" and then go through a few steps to check various options (for example, how many top nodes to examine and where to save output files and in what format). Chose your options and save the file in the txt format. 
+
+
+
+
+First, you need to generate the appropriate outputs from 
+
 
 sample script run:
 $ python graph_ora_output.py sample_data sample_output
